@@ -1,8 +1,5 @@
 $(document).ready(function(){
-
-  //Polifill object-fit
-  $(function () { objectFitVideos() });
-
+  
     //Валидация формы
     $('#form').validate({
         rules: {
