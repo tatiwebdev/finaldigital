@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+  //Polifill object-fit
+  $(function () { objectFitVideos() });
+
     //Валидация формы
     $('#form').validate({
         rules: {
@@ -47,6 +50,8 @@ $(document).ready(function(){
         });
         return false;
       });
+
+      
       
 
 });
